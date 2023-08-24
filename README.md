@@ -1,6 +1,8 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
+#### Data for VPN ####
+
 bastion_IP          = 51.250.3.183 (public ip-address)
 someinternalhost_IP = 10.128.0.3 (internal ip-address)  
 
