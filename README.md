@@ -1,6 +1,27 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
+##### YC #####
+##### cloudtestapp #####
+
+testapp_IP = 51.250.6.191
+testapp_port = 9292
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Data for VPN ####
 
 bastion_IP = 51.250.14.243
