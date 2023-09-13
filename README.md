@@ -17,13 +17,21 @@ EduardDzhagaev Infra repository
 mv variables.json.example variables.json
 nano variables.json
 
-Далее запустить сборщик:
+#Pапустить сборщик
 
 packer build -var-file="variables.json" ./ubuntu16.json
 
+#Установка reddit
 
+sudo apt-get update
+sudo apt-get install -y git
+git clone -b monolith https://github.com/express42/reddit.git
+cd reddit/
+bundle install
+puma -d
 
-
+#Проверка 
+http://IP:9292
 
 
 
