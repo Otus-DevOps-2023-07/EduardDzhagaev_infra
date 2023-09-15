@@ -1,18 +1,37 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
-##### YC #####
-##### cloudtestapp #####
+ДЗ №5
+##### Packer #####
 
-testapp_IP = 51.250.6.191
-testapp_port = 9292
-
-
-
-
+В рамках обучения было выполнено:
+Знакомство с инструментом packer
+Сборка образа с добавлением нужных пакетов
+Доустановка приложения и проверка его работы
 
 
+Для запуска потребуется настроенные 'yc'.
 
+Для сборки образа необходимо заполнить файл 'variables.json' своими акутальными значениями:
+
+mv variables.json.example variables.json
+nano variables.json
+
+#Pапустить сборщик
+
+packer build -var-file="variables.json" ./ubuntu16.json
+
+#Установка reddit
+
+sudo apt-get update
+sudo apt-get install -y git
+git clone -b monolith https://github.com/express42/reddit.git
+cd reddit/
+bundle install
+puma -d
+
+#Проверка 
+http://IP:9292
 
 
 

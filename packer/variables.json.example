@@ -1,0 +1,8 @@
+{
+    "service_account_key_file": "key.json",
+    "folder_id": "n6gpu8jh9ag5pvsh0nfc1",
+    "source_image_family": "ubuntu-1604-lts",
+    "ssh_username": "ubuntu",
+    "zone": "ru-central1-a"
+}
+
