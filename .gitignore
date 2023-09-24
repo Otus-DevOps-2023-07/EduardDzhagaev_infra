@@ -11,3 +11,4 @@ terraform/*.tfvars
 terraform/terraform.tfvars
 terraform/key.json
 terraform/.terraform.lock.hcl
+terraform/config.tf
