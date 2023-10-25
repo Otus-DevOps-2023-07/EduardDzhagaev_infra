@@ -23,4 +23,9 @@ terraform/prod/*.tfstate.*.backup
 terraform/prod/*.tfstate.backup
 terraform/stage/*.tfstate.*.backup
 terraform/stage/*.tfstate.backup
-
+terraform/config.tf
+terraform/stage/config.tf
+terraform/prod/config.tf
+terraform/modules/db/config.tf
+terraform/modules/app/config.tf
+terraform/modules/vpc/config.tf
