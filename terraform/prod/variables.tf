@@ -36,12 +36,12 @@ variable "platform_id" {
   description = "type of platform"
 }
 
-variable app_disk_image {
+variable "app_disk_image" {
   description = "Disk image for reddit app"
-  default = "reddit-app-base"
+  default     = "reddit-app-base"
 }
 
-variable db_disk_image {
+variable "db_disk_image" {
   description = "Disk image for db"
-#  default = "reddit-app-base"
+  #  default = "reddit-app-base"
 }

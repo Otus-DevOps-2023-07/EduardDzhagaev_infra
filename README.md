@@ -1,6 +1,18 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
+ДЗ №7
+##### Terraform-2 #####
+
+В рамках обучения было выполнено:
+Созданы два файла db.tf и app.tf для создания instance
+Создан файл vpc.tf для создания сети и подсети для instance
+Созданы модули app, db, vpc для оптимизации кода
+Созданы директории окружений prod и stage для возможности повторного использования модулей
+
+#Запуск проекта:
+terraform apply -auto-approve
+
 ДЗ №6
 ##### Terraform-1 #####
 

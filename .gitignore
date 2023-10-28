@@ -13,3 +13,17 @@ terraform/terraform.tfvars
 terraform/key.json
 terraform/.terraform.lock.hcl
 terraform/config.tf
+terraform/prod/key.json
+terraform/stage/key.json
+terraform/prod/terraform.tfvars
+terraform/stage/terraform.tfvars
+terraform/prod/*.tfstate
+terraform/stage/*.tfstate
+terraform/prod/*.tfstate.*.backup
+terraform/prod/*.tfstate.backup
+terraform/stage/*.tfstate.*.backup
+terraform/stage/*.tfstate.backup
+terraform/config.tf
+terraform/modules/db/config.tf
+terraform/modules/app/config.tf
+terraform/modules/vpc/config.tf
