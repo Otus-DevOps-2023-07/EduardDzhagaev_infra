@@ -1,6 +1,17 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
+ДЗ №8
+##### Ansible-1 #####
+
+В рамках обучения было выполнено:
+
+Установка Ansible
+Созданы inventory и inventory.yml
+Протестированы ad-hoc команды
+Протестирован playbook
+
+
 ДЗ №7
 ##### Terraform-2 #####
 
