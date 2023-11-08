@@ -1,6 +1,19 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
+ДЗ №9
+##### Ansible-2 #####
+
+В рамках обучения было выполнено:
+
+Созданы следующие playbooks:
+
+общий playbook с tags и limit
+общий playbook с разными plays
+playbooks в разных файлах и вызов из другого плейбука
+Provision в Packer. playbook integration в packer
+
+
 ДЗ №8
 ##### Ansible-1 #####
 
