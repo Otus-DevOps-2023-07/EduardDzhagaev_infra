@@ -1,6 +1,16 @@
 # EduardDzhagaev_infra
 EduardDzhagaev Infra repository
 
+ДЗ №10
+##### Ansible-3 #####
+
+В рамках обучения было выполнено:
+
+Попробовал писать playbook с roles
+Попробовал community role
+Попробовал использовать для секретов ansible vault
+
+
 ДЗ №9
 ##### Ansible-2 #####
 

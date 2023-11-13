@@ -29,4 +29,7 @@ terraform/stage/config.tf
 terraform/modules/db/config.tf
 terraform/modules/app/config.tf
 terraform/modules/vpc/config.tf
+key.json
 *.retry
+jdauphant.nginx
+vault.key
